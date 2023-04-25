@@ -1,0 +1,51 @@
+body {
+  font-family:'poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  background: lightcoral;
+}
+
+h1 {
+  padding: 50px;
+  text-align: center;
+}
+
+form {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+form input[type="text"] {
+  width: 100%;
+  padding: 0.5em;
+  margin-bottom: 1em;
+  border: 1px solid #ccc;
+}
+
+form button[type="submit"] {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 0.5em 1em;
+  cursor: pointer;
+}
+
+#results {
+  max-width: 800px;
+  margin: 1em auto;
+  padding: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.highlight {
+  background-color: yellow;
+}
